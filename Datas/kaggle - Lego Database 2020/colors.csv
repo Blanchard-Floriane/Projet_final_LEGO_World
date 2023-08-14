@@ -117,7 +117,7 @@ id,name,rgb,is_trans
 335,Sand Red,D67572,f
 351,Medium Dark Pink,F785B1,f
 366,Earth Orange,FA9C1C,f
-373,Sand Purple,845E84,f
+373,Sand Purple,8.45E+86,f
 378,Sand Green,A0BCAC,f
 379,Sand Blue,6074A1,f
 383,Chrome Silver,E0E0E0,f
@@ -126,7 +126,7 @@ id,name,rgb,is_trans
 484,Dark Orange,A95500,f
 503,Very Light Gray,E6E3DA,f
 1000,Glow in Dark White,D9D9D9,f
-1001,Medium Violet,9391E4,f
+1001,Medium Violet,9.39E+07,f
 1002,Glitter Trans-Neon Green,C0F500,t
 1003,Glitter Trans-Light Blue,68BCC5,t
 1004,Trans Flame Yellowish Orange,FCB76D,t
@@ -167,7 +167,7 @@ id,name,rgb,is_trans
 1039,Modulex Clear,FFFFFF,f
 1040,Modulex Foil Dark Gray,595D60,f
 1041,Modulex Foil Light Gray,9C9C9C,f
-1042,Modulex Foil Dark Green,006400,f
+1042,Modulex Foil Dark Green,6400,f
 1043,Modulex Foil Light Green,7DB538,f
 1044,Modulex Foil Dark Blue,0057A6,f
 1045,Modulex Foil Light Blue,68AECE,f
