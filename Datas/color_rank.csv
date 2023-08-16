@@ -1,0 +1,202 @@
+couleur_id,couleur_nom,couleur_code,nombre_pieces
+0,Black,#05131D,196368
+15,White,#FFFFFF,124682
+71,Light Bluish Gray,#A0A5A9,119722
+72,Dark Bluish Gray,#6C6E68,88334
+4,Red,#C91A09,83906
+14,Yellow,#F2CD37,57178
+1,Blue,#0055BF,45022
+70,Reddish Brown,#582A12,36838
+19,Tan,#E4CD9E,34039
+7,Light Gray,#9BA19D,28126
+2,Green,#237841,22121
+47,Trans-Clear,#FCFCFC,14899
+25,Orange,#FE8A18,14108
+297,Pearl Gold,#AA7F2E,12838
+27,Lime,#BBE90B,12231
+28,Dark Tan,#958A73,10725
+36,Trans-Red,#C91A09,9235
+272,Dark Blue,#0A3463,9199
+320,Dark Red,#720E0F,9175
+41,Trans-Light Blue,#AEEFEC,8840
+9999,[No Color/Any Color],#05131D,8708
+8,Dark Gray,#6D6E5C,8108
+179,Flat Silver,#898788,7927
+191,Bright Light Orange,#F8BB3D,7321
+322,Medium Azure,#36AEBF,7084
+84,Medium Nougat,#AA7D55,6310
+10,Bright Green,#4B9F4A,6132
+182,Trans-Orange,#F08F1C,5811
+46,Trans-Yellow,#F5CD2F,5541
+85,Dark Purple,#3F3691,4545
+29,Bright Pink,#E4ADC8,4510
+484,Dark Orange,#A95500,4334
+288,Dark Green,#184632,4123
+3,Dark Turquoise,#008F9B,4001
+5,Dark Pink,#C870A0,3973
+26,Magenta,#923978,3947
+33,Trans-Dark Blue,#0020A0,3845
+321,Dark Azure,#078BC9,3806
+308,Dark Brown,#352100,3600
+40,Trans-Brown,#635F52,3485
+6,Brown,#583927,3403
+378,Sand Green,#A0BCAC,3326
+73,Medium Blue,#5A93DB,3142
+34,Trans-Green,#84B68D,3021
+42,Trans-Neon Green,#F8F184,2750
+135,Pearl Light Gray,#9CA3A8,2584
+57,Trans-Neon Orange,#FF800D,2449
+30,Medium Lavender,#AC78BA,2259
+226,Bright Light Yellow,#FFF03A,2198
+323,Light Aqua,#ADC3C0,2194
+1103,Pearl Titanium,#3E3C39,2083
+45,Trans-Dark Pink,#DF6695,1883
+31,Lavender,#E1D5ED,1588
+379,Sand Blue,#6074A1,1515
+80,Metallic Silver,#A5A9B4,1386
+212,Bright Light Blue,#9FC3E9,1367
+326,Olive Green,#9B9A5A,1362
+1050,Coral,#FF698F,1236
+35,Trans-Bright Green,#D9E4A7,1124
+334,Chrome Gold,#BBA53D,917
+52,Trans-Purple,#A5A5CB,855
+158,Yellowish Green,#DFEEA5,818
+383,Chrome Silver,#E0E0E0,643
+351,Medium Dark Pink,#F785B1,609
+82,Metallic Gold,#DBAC34,569
+92,Nougat,#D09168,433
+13,Pink,#FC97AC,334
+78,Light Nougat,#F6D7B3,310
+74,Medium Green,#73DCA1,303
+143,Trans-Medium Blue,#CFE2F7,299
+22,Purple,#81007B,297
+1062,Vibrant Yellow,#EBD800,280
+462,Medium Orange,#FFA70B,266
+148,Pearl Dark Gray,#575857,253
+18,Light Yellow,#FBE696,191
+230,Trans-Pink,#E4ADC8,171
+79,Milky White,#FFFFFF,167
+1000,Glow in Dark White,#D9D9D9,164
+1053,Trans-Blue Opal,#68BCC5,159
+151,Very Light Bluish Gray,#E6E3E0,140
+21,Glow In Dark Opaque,#D4D5C9,138
+118,Aqua,#B3D7D1,137
+20,Light Violet,#C9CAE2,134
+17,Light Green,#C2DAB8,126
+178,Flat Dark Gold,#B48455,123
+1051,Pastel Blue,#5AC4DA,122
+366,Earth Orange,#FA9C1C,117
+12,Salmon,#F2705E,116
+100,Light Salmon,#FEBABD,110
+115,Medium Lime,#C7D23C,107
+313,Maersk Blue,#3592C3,99
+89,Royal Blue,#4C61DB,94
+1055,Trans-Clear Opal,#FCFCFC,92
+1094,Trans-Medium Purple,#8D73B3,92
+129,Glitter Trans-Purple,#A5A5CB,88
+86,Light Brown,#7C503A,84
+110,Violet,#4354A3,82
+1004,Trans-Flame Yellowish Orange,#FCB76D,82
+43,Trans-Very Lt Blue,#C1DFF0,78
+11,Light Turquoise,#55A5AF,76
+137,Pearl Sand Blue,#7988A1,76
+1065,Reddish Gold,#AC8247,74
+114,Glitter Trans-Dark Pink,#DF6695,65
+132,Speckle Black-Silver,#05131D,63
+232,Sky Blue,#7DBFDD,59
+1054,Trans-Dark Pink Opal,#CE1D9B,58
+54,Trans-Neon Yellow,#DAB000,57
+1057,Trans-Light Bright Green,#C9E788,53
+117,Glitter Trans-Clear,#FFFFFF,52
+294,Glow In Dark Trans,#BDC6AD,49
+1006,Trans-Light Royal Blue,#B4D4F7,49
+1059,Trans-Purple Opal,#8320B7,46
+503,Very Light Gray,#E6E3DA,46
+450,Fabuland Brown,#B67B50,43
+335,Sand Red,#D67572,43
+9,Light Blue,#B4D2E3,42
+1063,Pearl Copper,#B46A00,41
+1003,Glitter Trans-Light Blue,#68BCC5,40
+1086,Pearl Lime,#6A7944,39
+112,Medium Bluish Violet,#6874CA,38
+236,Trans-Light Purple,#96709F,37
+1039,Modulex Clear,#FFFFFF,37
+125,Light Orange,#F9BA61,37
+69,Light Purple,#CD6298,36
+63,Chrome Pink,#AA4D8E,28
+1056,Trans-Brown Opal,#583927,27
+150,Pearl Very Light Gray,#ABADAC,27
+1061,Trans-Dark Blue Opal,#0020A0,26
+120,Light Lime,#D9E4A7,24
+134,Copper,#AE7A59,23
+1021,Modulex Brown,#907450,23
+1018,Modulex Black,#4D4C52,23
+1015,Modulex Light Gray,#9C9C9C,23
+1013,Modulex White,#F4F4F4,23
+1007,Reddish Lilac,#8E5597,22
+1087,Duplo Pink,#FF879C,21
+60,Chrome Antique Brass,#645A4C,21
+373,Sand Purple,#845E86,21
+216,Rust,#B31004,19
+183,Pearl White,#F2F3F2,18
+1073,Pearl Black,#0A1327,18
+1005,Trans-Fire Yellow,#FBE890,17
+1072,Pearl Brown,#57392C,17
+1020,Modulex Terracotta,#5C5030,16
+1022,Modulex Buff,#DEC69C,16
+1070,Pearl Blue,#0059A3,16
+1089,Warm Tan,#CCA373,15
+1077,Fabuland Lime,#78FC78,15
+1071,Pearl Green,#008E3C,15
+1064,Fabuland Red,#FF8014,14
+1058,Trans-Light Green,#94E5AB,14
+1069,Pearl Red,#D60026,14
+1068,Reddish Orange,#EE5434,13
+81,Metallic Green,#899B5F,13
+1088,Medium Brown,#755945,13
+77,Light Pink,#FECCCF,12
+1033,Modulex Teal Blue,#467083,11
+1031,Modulex Olive Green,#7C9051,11
+1028,Modulex Ochre Yellow,#FED557,11
+1082,Clikits Pink,#FE78B0,10
+1002,Glitter Trans-Neon Green,#C0F500,10
+1092,Metallic Copper,#764D3B,10
+23,Dark Blue-Violet,#2032B0,10
+1102,Trans-Neon Red,#FF0040,9
+1060,Trans-Green Opal,#84B68D,8
+1010,Vintage Red,#CA1F08,8
+1009,Vintage Green,#1E601E,8
+1066,Curry,#DD982E,8
+1067,Dark Nougat,#AD6140,8
+1001,Medium Violet,#939E07,8
+61,Chrome Blue,#6C96BF,7
+-1,[Unknown],#0033B2,7
+1084,Two-tone Gold,#AB673A,6
+1100,Clikits Yellow,#FFCF0B,6
+1074,Duplo Blue,#009ECE,6
+1085,Two-tone Silver,#737271,6
+76,Speckle DBGray-Silver,#6C6E68,5
+133,Speckle Black-Gold,#05131D,4
+1095,Trans-Black,#635F52,4
+1093,Light Lilac,#9195CA,4
+75,Speckle Black-Copper,#05131D,4
+1011,Vintage Yellow,#F3C305,4
+1008,Vintage Blue,#039CBD,4
+1012,Fabuland Orange,#EF9121,3
+1076,Duplo Lime,#FFF230,3
+68,Very Light Orange,#F3CF9B,3
+1097,Glitter Trans-Medium Purple,#8D73B3,3
+1083,Two-tone Copper,#945148,2
+142,Pearl Light Gold,#DCBC81,2
+62,Chrome Green,#3CB371,2
+1090,Duplo Turquoise,#3FB69E,2
+1080,Light Tan,#F3C988,1
+1079,Duplo Light Green,#60BA76,1
+1091,Warm Yellowish Orange,#FFCB78,1
+1052,Glitter Trans-Orange,#F08F1C,1
+1099,Glitter Trans-Pink,#E4ADC8,1
+1081,Rust Orange,#872B17,1
+1101,Duplo Dark Purple,#5F27AA,1
+1075,Duplo Medium Blue,#3E95B6,1
+64,Chrome Black,#1B2A34,1
+1078,Duplo Medium Green,#468A5F,1
