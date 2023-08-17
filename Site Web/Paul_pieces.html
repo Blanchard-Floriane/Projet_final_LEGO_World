@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Bootstrap CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f02447683.js" crossorigin="anonymous"></script>
+  <link href="paul_style.css" rel="stylesheet"/>
+  
+  <title>Projet Final LEGO</title>
+</head>
+
+<body>
+  <!-- Code spécifique pour la nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bgnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">L'équipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Couleurs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Paul_pieces.html">Pièces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" href="#">Univers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero bootstrap pour l'intros au pièces -->
+  <h1 class="my-5 text-center">Que peuvent nous dire les pièces Lego ?</h1>
+  <div class="container mx-auto row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+      <div class="text-center feature-icon bg-gradient">
+      </div>
+      <h2 class="my-3 text-center">Beaucoup de pièces différentes</h2>
+      <h4 class="my-1 text-center">50177</h4>
+      <p class = "text-center"> Il y a 50 177 pièces différentes dans la bibliothèque de pièces LEGO, de quoi nourrir l'imagination sur plusieurs générations. Même si on peut trouver plusieurs matériaux constituant ces pièces, l'écrasante majorité est constituée de plastique. De forme différente comme les briques et les tuiles, on compte 66 variétés différentes.</p>
+      </div>
+    <div class="feature col">
+      <div class="feature-icon text text-center bg-gradient">
+      </div>
+      <h2 class="my-3 text-center">Des pièces uniques</h2>
+      <h4 class="mt-5 mb-2 text-center">56 %</h4>
+      <p class = "text-center ">A l’aide de ce kit, petit et grand on pu donner vie à de nombreux univers. Et de nombreuses pièces ont été créées spécialement pour l'occasion. A tel point que 56% des pièces ne sont utilisés que pour une seule et unique construction. En tout 28 038 pièces uniques sont sorties du moule pour permettre la construction, en particulier des partenariats Lego.</p>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon text-center bg-gradient">
+      </div>
+      <h2 class=" my-3 text-center">La brique plate 1*2</h2>
+      <img src="/Visuels/Data_viz_parts/Plate 1 x 2.png" alt="">
+      <p class = "text-center"> 3 921 840 pièces en tout, c’est ce qu’il faut pour construire l’ensemble des histoires Lego. Et c’est dans cette boite à Lego gigantesque que l’on vas retrouver 3 % de brique plate 1*2, soit la brique la plus utilisée de l’univers lego de tous les temps.</p>
+    </div>
+  </div>
+
+  <!-- Gutters bootstrap n°1 pour l'analyses des matériaux -->
+  <div class="p-4 mb-1 bgsectioncolors border-bottom border-danger">
+    <div class="row gx-5">
+      <div class="col-4">
+       <div class="p-3 m-3 bgsectioncolors">
+        <img src="/Visuels/Data_viz_parts/Matériaux utilisés.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+       </div>
+      </div>
+      <div class="col-8">
+        <div class="p-3 mt-3 bgsectioncolors "> 
+          <h3 class = "text-center">Analyse des matériaux</h3>
+          <p class = "text-justify">c'est ici que vas l'analyse des matériaux</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gutters bootstrap n°2 pour l'Nombre de pièces utilisées -->
+  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
+    <div class="row gx-5">
+      <div class="col-4">
+       <div class="p-3 m-3 bgsectioncolors">
+        <img src="/Visuels/Data_viz_parts/Nombre de pièces utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+       </div>
+      </div>
+      <div class="col-8">
+        <div class="p-3 mt-3 bgsectioncolors "> 
+          <h3>Analyse du nombre de pièces</h3>
+          <p class = "text-justify">c'est ici que vas l'analyse du nombre de pièces</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Gutters bootstrap n°3 pour les pièces de rechange -->
+  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
+    <div class="row gx-5">
+      <div class="col-4">
+       <div class="p-3 m-3 bgsectioncolors">
+        <img src="/Visuels/Data_viz_parts/Pourcentage.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+       </div>
+      </div>
+      <div class="col-8">
+        <div class="p-3 mt-3 bgsectioncolors "> 
+          <h3>Analyse des pièces de rechange</h3>
+          <p class = "text-justify">c'est ici que vas l'analyse du nombre de pièces</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <!-- Gutters bootstrap n°4 pour les pièces dans les univers -->
+  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
+    <div class="row gx-5">
+      <div class="col-4">
+       <div class="p-3 m-3 bgsectioncolors">
+        <img src="/Visuels/Data_viz_parts/Univers avec les plus de pièce unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+       </div>
+      </div>
+      <div class="col-8">
+        <div class="p-3 mt-3 bgsectioncolors "> 
+          <h3>Analyse des pièces dans les univers</h3>
+          <p class = "text-justify">c'est ici que vas l'analyse des pièces dans les univers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <!-- Gutters bootstrap n°5 pour les pièces les plus utilisées -->
+  <div class="p-4 bgsectioncolors border-top border-danger">
+    <div class="row gx-5">
+       <div class="p-3 m-3 bgsectioncolors text-center">
+        <img src="/Visuels/Data_viz_parts/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+       </div>
+        <div class="p-3 mt-3 bgsectioncolors text-center"> 
+          <h3>Analyse des pièces les plus utilisées</h3>
+          <p class = "text-justify">c'est ici que vas l'analyse des pièces les plus utilisées</p>
+        </div>
+    </div>
+  </div>
+</body>
+<footer>
+</footer>
