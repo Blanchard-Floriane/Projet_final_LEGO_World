@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bgnav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+        <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,6 +49,7 @@
 
   <!-- hero bootstrap pour l'intros au pièces -->
   <h1 class="my-5 text-center">Que peuvent nous dire les pièces Lego ?</h1>
+  <p class = "text-center"> "Analyses sur la période de 1949 a 2023"</p>
   <div class="container mx-auto row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
       <div class="text-center feature-icon bg-gradient">
@@ -68,87 +69,92 @@
       <div class="feature-icon text-center bg-gradient">
       </div>
       <h2 class=" my-3 text-center">La brique plate 1*2</h2>
-      <img src="/Visuels/Data_viz_parts/Plate 1 x 2.png" alt="">
+      <img class = "bloc" src="./Visuels/Data_viz_parts/Plate 1 x 2.png" alt="">
       <p class = "text-center"> 3 921 840 pièces en tout, c’est ce qu’il faut pour construire l’ensemble des histoires Lego. Et c’est dans cette boite à Lego gigantesque que l’on vas retrouver 3 % de brique plate 1*2, soit la brique la plus utilisée de l’univers lego de tous les temps.</p>
     </div>
   </div>
 
   <!-- Gutters bootstrap n°1 pour l'analyses des matériaux -->
-  <div class="p-4 mb-1 bgsectioncolors border-bottom border-danger">
-    <div class="row gx-5">
-      <div class="col-4">
-       <div class="p-3 m-3 bgsectioncolors">
-        <img src="/Visuels/Data_viz_parts/Matériaux utilisés.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-       </div>
+    <div class="mx-lg-5 p-4 bgsectioncolors position-relative">
+      <div class="row gx-5">
+          <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+              <div class="p-lg-5 py-3  bgsectioncolors">
+                  <img src="./Visuels/Data_viz_parts/Matériaux utilisés.png" class="img-fluid" alt="gros plan sur des briques lego de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
+              </div>
+          </div>
+          <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+              <div class="pt-3 m-auto bgsectioncolors text-center">
+                  <h3 class="p-auto h2_block_color text-center">Analyse des matériaux</h3>
+                  <p class="p-auto p_block_color text-center">Quand on pense Lego, rare sont les personnes que ne pense pas à brique de plastique jaune. Et pour cause, malgré une liste de 7 matériels différents qui peuvent entrer dans la fabrication de pièces Lego, le plastique est prépondérant. 
+                    Avec presque 99 % d’utilisation, les collectionneurs peuvent s’estimer heureux s'ils possèdent des pièces de tissus, de carton ou de métal.
+                    Ce résultat n’est pas vraiment surprenant au vu de l’histoire de la marque et de sont créateurs qui a démarré en 1947 dans le marché à mouler du plastique.</p>
+              </div>
+          </div>
       </div>
-      <div class="col-8">
-        <div class="p-3 mt-3 bgsectioncolors "> 
-          <h3 class = "text-center">Analyse des matériaux</h3>
-          <p class = "text-justify">c'est ici que vas l'analyse des matériaux</p>
+    </div>
+
+  <!-- Gutters bootstrap n°2 pour l'Nombre de pièces utilisées -->
+  <div class="mx-lg-5 p-4 bg-white">
+    <div class="row gx-5">
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+            <h3 class="p-auto h2_block_white text-center">Analyse du nombre de pièces</h3>
+            <p class="p-auto p_block_white d-block">Si l’on s’attarde sur le nombre de pièces utilisé dans les sets Lego en fonction des années on distingue 3 phases :</p>
+            <ul><li>une monté lente jusqu'à la première moitié des années 80</li>
+              <li>Une première ascension tumultueuse jusqu'au années 2000</li>
+              <li>Une ascension fulgurante qui n'a été stoppée qu’en 2020</li></ul>
+            <p>Si l’on croise les données des autres analyses (Univers et couleurs), Le carrefour des années 2000 est primordiale puisque qu’il marque le démarrage des contrats avec les univers de pop cultures ainsi que des investissements en recherche et développement.</p>
         </div>
       </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+            <img src="./Visuels/Data_viz_parts/Nombre de pièces utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+        </div>
+    </div>
     </div>
   </div>
 
-  <!-- Gutters bootstrap n°2 pour l'Nombre de pièces utilisées -->
-  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
-    <div class="row gx-5">
-      <div class="col-4">
-       <div class="p-3 m-3 bgsectioncolors">
-        <img src="/Visuels/Data_viz_parts/Nombre de pièces utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-       </div>
-      </div>
-      <div class="col-8">
-        <div class="p-3 mt-3 bgsectioncolors "> 
-          <h3>Analyse du nombre de pièces</h3>
-          <p class = "text-justify">c'est ici que vas l'analyse du nombre de pièces</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
   <!-- Gutters bootstrap n°3 pour les pièces de rechange -->
-  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
+  <div class="mx-lg-5 p-4 bgsectioncolors position-relative">
     <div class="row gx-5">
-      <div class="col-4">
-       <div class="p-3 m-3 bgsectioncolors">
-        <img src="/Visuels/Data_viz_parts/Pourcentage.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-       </div>
-      </div>
-      <div class="col-8">
-        <div class="p-3 mt-3 bgsectioncolors "> 
-          <h3>Analyse des pièces de rechange</h3>
-          <p class = "text-justify">c'est ici que vas l'analyse du nombre de pièces</p>
+        <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+            <div class="p-lg-5 py-3  bgsectioncolors">
+                <img src="./Visuels/Data_viz_parts/Pourcentage.png" class="img-fluid" alt="gros plan sur des briques lego de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
+            </div>
         </div>
-      </div>
+        <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+            <div class="pt-3 m-auto bgsectioncolors text-center">
+                <h3 class="p-auto h2_block_color text-center">Analyse des pièces de rechange</h3>
+                <p class="p-auto p_block_color text-center">L’ajout de pièces de rechange dans les boîtes de Lego n’est pas systématique. En effet, bien que la proportion de ces pièces augmentent au fil des années, cela n'a rien de comparable avec l’augmentation du nombre de pièces. Le nombre de pièces de rechange a même commencé à descendre 2023.</p>
+              </div>
+        </div>
     </div>
   </div>
-    
+
   <!-- Gutters bootstrap n°4 pour les pièces dans les univers -->
-  <div class="p-4 mb-1 bgsectioncolors border-top border-bottom border-danger">
+  <div class="mx-lg-5 p-4 bg-white">
     <div class="row gx-5">
-      <div class="col-4">
-       <div class="p-3 m-3 bgsectioncolors">
-        <img src="/Visuels/Data_viz_parts/Univers avec les plus de pièce unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-       </div>
-      </div>
-      <div class="col-8">
-        <div class="p-3 mt-3 bgsectioncolors "> 
-          <h3>Analyse des pièces dans les univers</h3>
-          <p class = "text-justify">c'est ici que vas l'analyse des pièces dans les univers</p>
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+            <h3 class="p-auto h2_block_white text-center">Analyse des pièces dans les univers</h3>
+            <p class="p-auto p_block_white d-block">c'est ici que vas l'analyse des pièces dans les univers</p>         </div>
         </div>
-      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+            <img src="./Visuels/Data_viz_parts/Univers avec les plus de pièce unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+        </div>
+    </div>
     </div>
   </div>
       
   <!-- Gutters bootstrap n°5 pour les pièces les plus utilisées -->
-  <div class="p-4 bgsectioncolors border-top border-danger">
+  <div class="p-4 bgsectioncolors">
     <div class="row gx-5">
-       <div class="p-3 m-3 bgsectioncolors text-center">
-        <img src="/Visuels/Data_viz_parts/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-       </div>
         <div class="p-3 mt-3 bgsectioncolors text-center"> 
           <h3>Analyse des pièces les plus utilisées</h3>
+          <div class="p-3 m-3 bgsectioncolors text-center">
+            <img class="graphe" src="./Visuels/Data_viz_parts/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+           </div>
           <p class = "text-justify">c'est ici que vas l'analyse des pièces les plus utilisées</p>
         </div>
     </div>

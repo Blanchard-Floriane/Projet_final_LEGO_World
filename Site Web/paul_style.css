@@ -1,3 +1,12 @@
 .bgnav {
   background-color: #fdcf02;
 }
+.bloc {
+  width: 50px; /* Largeur souhaitée en pixels */
+  height: 50px; /* Hauteur souhaitée en pixels */
+}
+
+.graphe {
+  width: 50%; /* Largeur souhaitée en pixels */
+  height: 50%; /* Hauteur souhaitée en pixels */
+}
