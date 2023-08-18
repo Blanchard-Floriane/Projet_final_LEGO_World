@@ -13,12 +13,13 @@
   crossorigin="anonymous"/>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/8f02447683.js" crossorigin="anonymous"></script>
-  <link href="style.css" rel="stylesheet"/>
+  <link href="./style.css" rel="stylesheet"/>
   
   <title>Couleurs - Projet Final LEGO</title>
 </head>
 
 <body>
+  
   <!-- Code spécifique pour la nav bar -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bgnav">
     <div class="container-fluid">
@@ -46,59 +47,116 @@
       </div>
     </div>
   </nav>
-
+  
   <!-- Gutters bootstrap pour l'évolution du nb de couleurs par année' -->
   <div class="mx-lg-5 p-4 bg-white position-relative">
     <div class="row gx-5">
-        <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
-            <div class="p-lg-5 py-3  bg-white">
-                <img src="./Visuels/dataviz_couleurs/evolution_nb_couleurs_par_an.png" class="img-fluid" alt="graphique en barre représentant pour chaque année les couleurs uniques ayant servies à la création des sets publiés cette année-là.">
-            </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+        <div class="p-lg-5 py-3  bg-white">
+          <img src="./Visuels/dataviz_couleurs/evolution_nb_couleurs_par_an.png" class="img-fluid" alt="graphique en barre représentant pour chaque année les couleurs uniques ayant servies à la création des sets publiés cette année-là.">
         </div>
-        <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
-            <div class="pt-3 m-auto bg-white text-center">
-                <h2 class="p-auto h2_block_white text-lg-start text-center">231 nuances de grey... Heu.. de couleurs !</h2>
-                <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">C'est le nombre de couleurs existantes actuellement, bien que seulement 201 soient utilisées au sein des sets de jeux.
-                </p>
-                <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">LEGO existe depuis 74 ans, pour autant on peut voir que ce n'est qu'au cours des <strong>25 dernières années</strong> que le nombre moyen de couleurs par an a été <strong>multiplié par 5</strong>. 13 couleurs en moyenne entre 1949 et 1996, contre environ 65 depuis 1996.
-                </p>
-            </div>
+      </div>
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto bg-white text-center">
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">231 nuances de grey... Heu.. de couleurs !</h2>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">C'est le nombre de couleurs existantes actuellement, bien que seulement 201 soient utilisées au sein des sets de jeux.
+          </p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">LEGO existe depuis 74 ans, pour autant on peut voir que ce n'est qu'au cours des <strong>25 dernières années</strong> que le nombre moyen de couleurs par an a été <strong>multiplié par 5</strong>. 13 couleurs en moyenne entre 1949 et 1996, contre environ 65 depuis 1996.
+          </p>
         </div>
+      </div>
     </div>
   </div>
-
+  
   <!-- Couleur développées uniquement pour une seule pièce  -->
-  <div class="mx-lg-5 p-4 bg-white">
+  <div class="mx-lg-5 p-4 bg-white position-relative">
     <div class="row gx-5">
       <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
         <div class="pt-3 m-auto text-center">
-            <h2 class="p-auto h2_block_white text-lg-start text-center">Le souci du détail poussé à son paroxysme</h2>
-            <p class="p-auto p_block_white d-block text-lg-start text-center">Voici les  <strong>10 couleurs</strong> créées uniquement pour produire chacune une pièce. Hormis la gamme Duplo, il est intéressant de noter les 3 pièces faisant référence à des <strong>produits partenaires</strong> tels Avatar, DC Super Hero et Mc Donalds. Il s'agit d'un des leviers expliquant la pérennité de LEGO dans le temps, le fait de <strong>choyer ses partenaires</strong> quand bien même cela représente un coût supplémentaire en R&D. </p>
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">Toujours aux petits soins pour ses partenaires</h2>
+          <p class="p-auto p_block_white d-block text-lg-start text-center">Voici les  <strong>10 couleurs</strong> créées uniquement pour produire chacune une pièce. Hormis la gamme Duplo, il est intéressant de noter les 3 pièces faisant référence à des <strong>produits partenaires</strong> tels Avatar, DC Super Hero et McDonald's. Il s'agit d'un des leviers expliquant la pérennité de LEGO dans le temps, le fait de <strong>choyer ses partenaires</strong> quand bien même cela représente un coût supplémentaire en R&D. </p>
         </div>
       </div>
       <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
         <div class="p-lg-5 py-3">
-            <img src="./Visuels/dataviz_couleurs/couleurs_developpees_pour_piece_unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+          <img src="./Visuels/dataviz_couleurs/couleurs_developpees_pour_piece_unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
         </div>
+      </div>
     </div>
+  </div>
+  
+  <!-- Top 10 des Couleurs les plus utilisées -->
+  <div class="mx-lg-5 p-4 bg-white position-relative">
+    <div class="row gx-5">
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+        <div class="p-lg-5 py-3  bg-white">
+          <img src="./Visuels/dataviz_couleurs/top10_couleurs_par_nb_pieces.png" class="img-fluid" alt="graphique en barre représentant pour chaque année les couleurs uniques ayant servies à la création des sets publiés cette année-là.">
+        </div>
+      </div>
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto bg-white text-center">
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">Top 10 des couleurs LEGO par nombre de pièces</h2>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Sans grande surprise les couleurs les plus usitées arborent des tons froids du <strong>style industriel</strong>.
+          </p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Pourquoi n'est-ce pas surprenant ? Il n'y a qu'à regarder l'analyse des univers comprenant le plus grand nombre de pièces (<em><a href="pieces.html">cf. Analyse des pièces</a></em>), on voit que Star Wars, Lego Technic ou bien Ninja Go sont sur le podium. Autant d'<strong>univers dits "masculins"</strong>, ainsi quoi de mieux pour séduire ce public que d'utiliser des couleurs qui lui parlent.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Corrélation couleurs & univers  -->
+  <div class="mx-lg-5 p-4 bg-white position-relative">
+    <div class="row gx-5">
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">Plus de couleurs pour plus d'univers ?</h2>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">On pourrait bien le penser, surtout quand on observe la partie gauche de ce nuage de points.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Le nombre de couleurs évolue <strong>conjointement</strong> avec la multiplication des univers <strong>jusqu'à un seuil</strong>, s'en suit une dissociation entre nombre de couleurs et nombre d'univers. Cela peut s'expliquer par une multiplication des couleurs au sein des univers. Avec cette stratégie, LEGO permet d'affiner la <strong>personnalisation des univers</strong> et remplit les exigences de charte graphique des partenaires.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+          <img src="./Visuels/dataviz_couleurs/correlation_univers_et_couleurs.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+        </div>
+      </div>
     </div>
   </div>
 
-    <!-- Gutters bootstrap pour la section univers -->
-  <div class="mx-lg-5 p-4">
-      <div class="row gx-5">
-          <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
-              <div class="p-lg-5 py-3 ">
-                  <img src="/Visuels/lego_japanese_house.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-              </div>
-          </div>
-          <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
-              <div class="pt-3 m-auto text-center">
-                  <h2 class="p-auto h2_block_white text-center">Les Univers & les Sets</h2>
-                  <p class="p-auto p_block_white d-block">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source</p>
-              </div>
-          </div>
+  <!-- Univers utilisant le plus de couleurs -->
+  <div class="mx-lg-5 p-4 bg-white position-relative">
+    <div class="row gx-5">
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+        <div class="p-lg-5 py-3  bg-white">
+          <img src="./Visuels/dataviz_couleurs/univers_word_cloud.png" class="img-fluid" alt="graphique en barre représentant pour chaque année les couleurs uniques ayant servies à la création des sets publiés cette année-là.">
+        </div>
       </div>
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto bg-white text-center">
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">Les univers les plus "couleurivores"</h2>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Puisque nous en étions à la personnalisation des univers, il serait bon d'observer les plus <strong>gros consommateurs</strong> en termes de couleurs.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">La vainqueur (de peu) est <strong>Harry Potter</strong> &#127870;&#127870; avec 92 couleurs uniques ! Cette belle victoire est à nuancer, car comme le montre la dimensions des textes, les 10 premiers se suivent avec des <strong>scores proches</strong>. Pour aller plus loin dans l'analyse, il faut regarder du côté du nombre <a href="pieces.html">de pièces</a> et <a href="univers.html">de sets</a> par univers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Focus sur les détails avces les plantes  -->
+  <div class="mx-lg-5 p-4 bg-white position-relative">
+    <div class="row gx-5">
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+          <h2 class="p-auto mb-3 h2_block_white text-lg-start text-center">Le souci du détail poussé à son paroxysme</h2>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Quoi de mieux pour <strong>rendre ses utilisateurs <u>heureux</u></strong> que de personnaliser toujours et encore ses pièces, permettant ainsi <strong>un niveau de détails</strong> toujours plus poussé au fil des années.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Pour mieux appréhender cette diversité de détails à <strong>l'échelle des pièces</strong>, voici un focus sur les &#x1FAB4;. De 1949 à 1967, une seule couleur le vert ! Ce n'est qu'ensuite que nombre de pièces et de couleurs évoluent conjointement. </p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+          <img src="./Visuels/dataviz_couleurs/evolution_couleurs_et_pieces_des_plantes.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
