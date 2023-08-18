@@ -22,8 +22,8 @@
   <!-- Code spécifique pour la nav bar -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bgnav">
     <div class="container-fluid">
-      <a class="navbar-brand" aria-current="page" href="index.html">
-        <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="./Visuels/brand-LEGO.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,13 +34,13 @@
             <a class="nav-link" href="couleurs.html">Couleurs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pieces.html">Pièces</a>
+            <a class="nav-link" aria-current="page" href="pieces.html">Pièces</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" href="#">Univers</a>
+            <a class="nav-link" href="univers.html">Univers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" href="#">Chiffres d'Affaires</a>
+            <a class="nav-link" href="chiffres_affaires.html">Chiffres d'Affaires</a>
           </li>
         </ul>
       </div>
@@ -48,152 +48,161 @@
   </nav>
   
   <!-- hero bootstrap pour l'intros au pièces -->
-  <h1 class="mt-5 mb-1 text-center">Que peuvent nous dire les pièces Lego ?</h1>
-  <p class = "mb-4 text-center"> "Analyses sur la période de 1949 a 2023"</p>
-  <div class="container mx-auto row g-4 py-5 row-cols-1 row-cols-lg-3">
-    <div class="feature col">
-      <h2 class="my-3 text-center">Beaucoup de pièces différentes</h2>
-      <h4 class="my-1 text-center">50 177</h4>
-      <p class = "text-center"> Il y a 50 177 pièces différentes dans la bibliothèque de pièces LEGO, de quoi nourrir l'imagination sur plusieurs générations. Même si on peut trouver plusieurs matériaux constituant ces pièces, l'écrasante majorité est constituée de plastique. De forme différente comme les briques et les tuiles, on compte 66 variétés différentes.</p>
-    </div>
-    <div class="feature col">
-      <h2 class="my-3 text-center">Des pièces uniques</h2>
-      <h4 class="mt-5 mb-2 text-center">56 %</h4>
-      <p class = "text-center ">A l’aide de ce kit, petit et grand on pu donner vie à de nombreux univers. Et de nombreuses pièces ont été créées spécialement pour l'occasion. A tel point que 56% des pièces ne sont utilisés que pour une seule et unique construction. En tout 28 038 pièces uniques sont sorties du moule pour permettre la construction, en particulier des partenariats Lego.</p>
-    </div>
-    <div class="feature col">
-      <h2 class=" my-3 text-center">La brique plate 1 x 2</h2>
-      <div class="p-lg-3  bg-white align-items-center justify-content-center">
-        <img src="./Visuels/Data_viz_parts/Plate 1 x 2.png" class = "rounded mx-auto d-block w-25" alt="">
-      </div>
-      <p class = "text-center"> 3 921 840 pièces en tout, c’est ce qu’il faut pour construire l’ensemble des histoires Lego. Et c’est dans cette boite à Lego gigantesque que l’on vas retrouver 3 % de brique plate 1*2, soit la brique la plus utilisée de l’univers lego de tous les temps.</p>
-    </div>
-  </div>
-
-  <div class="mx-lg-5 p-4 bg-danger position-relative">
-    <h2 class="text-center text-white">Analyse</h2>
-
+  <div>
+    <h1 class="mt-5 mb-1 text-center">Que peuvent nous dire les pièces LEGO ?</h1>
+    <p class = "mb-4 text-center"> "Analyses réalisées sur la période de 1949 à 2023"</p>
   </div>
   
-  <!-- Gutters bootstrap n°1 pour l'analyses des matériaux -->
+  <!-- Colonnes nb de pièces / pièces uniques / brique plate -->
+  <div class="container mx-auto row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <h2 class="my-2 text-center">Beaucoup de pièces différentes</h2>
+      <h4 class="mt-1 mb-3 text-center">50 177</h4>
+      <p class = "mt-2 text-center"> Il y a 50 177 pièces différentes dans la bibliothèque de pièces LEGO, de quoi nourrir l'imagination sur plusieurs générations. Même si on peut trouver plusieurs matériaux constituant ces pièces, l'écrasante majorité est constituée de plastique. De forme différente comme les briques et les tuiles, on compte 66 variétés différentes.</p>
+    </div>
+    <div class="feature col">
+      <h2 class="my-2 text-center">Des pièces uniques</h2>
+      <h4 class="mt-5 mb-3 text-center">56 %</h4>
+      <p class = "text-center ">A l’aide de ce kit, petit et grand on pu donner vie à de nombreux univers. Et de nombreuses pièces ont été créées spécialement pour l'occasion. A tel point que 56% des pièces ne sont utilisés que pour une seule et unique construction. En tout 28 038 pièces uniques sont sorties du moule pour permettre la construction, en particulier des partenariats LEGO.</p>
+    </div>
+    <div class="feature col">
+      <h2 class=" my-2 text-center">La brique plate 1 x 2</h2>
+      <div class="py-lg-3 px-lg-0 mb-0 bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Plate 1 x 2.png" class = "rounded mx-auto d-block w-25" alt="">
+      </div>
+      <p class = "text-center mt-0"> 3 921 840 pièces en tout, c’est ce qu’il faut pour construire l’ensemble des histoires LEGO. Et c’est dans cette boite à LEGO gigantesque que l’on vas retrouver 3 % de brique plate 1*2, soit la brique la plus utilisée de l’univers LEGO de tous les temps.</p>
+    </div>
+  </div>
+  
+  <div class="mx-lg-5 p-4 bg-danger position-relative">
+    <h2 class="text-center text-white">Analyse</h2>
+  </div>
+  
+  <!-- n°1 pour l'analyses des matériaux -->
   <div class="mx-lg-5 p-4 bg-white position-relative">
     <div class="row gx-5">
       <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
-        <div class="p-lg-5 py-3 bg-white">
-          <img src="./Visuels/Data_viz_parts/Matériaux utilisés.png" class="img-fluid" alt="gros plan sur des briques lego de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
+        <div class="p-lg-1 py-3 bg-white">
+          <img src="./Visuels/dataviz_pieces/Matériaux utilisés.png" class="img-fluid" alt="gros plan sur des briques LEGO de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
         </div>
       </div>
       <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
         <div class="pt-3 m-auto bg-white text-center">
-          <h3 class="p-auto text-center">Analyse des matériaux</h3>
-          <p class="p-auto text-center">Quand on pense Lego, rare sont les personnes que ne pense pas à brique de plastique jaune. Et pour cause, malgré une liste de 7 matériels différents qui peuvent entrer dans la fabrication de pièces Lego, le plastique est prépondérant. 
-            Avec presque 99 % d’utilisation, les collectionneurs peuvent s’estimer heureux s'ils possèdent des pièces de tissus, de carton ou de métal.
-            Ce résultat n’est pas vraiment surprenant au vu de l’histoire de la marque et de sont créateurs qui a démarré en 1947 dans le marché à mouler du plastique.</p>
+          <h3 class="p-auto mb-3 h2_block_white text-lg-start text-center">Plastique je t'aime... Un peu... Beaucoup...</h3>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Lorsque l'on imagine LEGO, rare sont les personnes qui ne pensent pas à <strong>la brique de plastique jaune</strong>. Et pour cause, malgré une liste de 7 matériels différents qui peuvent entrer dans la fabrication de pièces LEGO, le plastique est prépondérant.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Avec près de <strong>99 % d’utilisation</strong>, les collectionneurs peuvent s’estimer heureux s'ils possèdent des pièces en tissus, carton ou métal. Rien de surprenant quand on sait que son créateur a démarré en <strong>1947</strong> dans le marché en <strong>moulant du plastique</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- n°2 pour l'Nombre de pièces utilisées -->
+  <div class="mx-lg-5 p-4 bg-white">
+    <div class="row gx-5">
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+          <h3 class="p-auto mb-3 h2_block_white text-lg-start text-center">Croissance du nombre de pièces - l'Everest LEGO</h3>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Si l’on s’attarde sur le nombre de pièces utilisées dans les sets LEGO en fonction des années, on distingue <strong>3 phases</strong> :</p>
+          <ul class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-start">
+            <li>Une progression lente jusqu'à la première moitié des années 80's,</li>
+            <li>Suivie de turbulences jusqu'aux années 2000,</li>
+            <li>Puis, une ascension fulgurante qui n'a été stoppée qu’en 2020</li>
+          </ul>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">En croisant les données des <a href="univers.html">Univers</a> et <a href="couleurs.html">Couleurs</a>, on observe un carrefour primordial dans les années 2000. Cela marque le démarrage des contrats avec les univers de pop cultures ainsi que des investissements en recherche et développement.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+          <img src="./Visuels/dataviz_pieces/Nombre de pièces utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de LEGO de toutes les couleurs en croissant de lune et à droite quelques figurines LEGO">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- N°3 pour les pièces de rechange -->
+  <div class="mx-lg-5 p-4 bg-white position-relative">
+    <div class="row gx-5">
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
+        <div class="p-lg-5 py-3 bg-white">
+          <img src="./Visuels/dataviz_pieces/Pourcentage.png" class="img-fluid" alt="gros plan sur des briques LEGO de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
+        </div>
+      </div>
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto bg-white text-center">
+          <h3 class="p-auto mb-3 h2_block_white text-lg-start text-center">À l'instar des antibios, les pièces de rechange c'est pas automatique !</h3>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">L’ajout de pièces de rechange dans les boîtes LEGO n’est pas systématique.</p>
+          <p class="mt-0 mb-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Bien que la proportion de ces pièces augmente au fil des années, cela n'est en rien comparable avec l’augmentation totale du nombre de pièces. On peut envisager une corrélation entre cette faible proportion et la <strong>solidité des pièces</strong> dans le temps, une autre des <strong>stratégies de longévité</strong> appliquée par LEGO.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center"><em>Nb. Il existe un biais pour 2023 puisque l'année n'est pas terminée.</em> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- N°4 pour les pièces dans les univers -->
+  <div class="mx-lg-5 p-4 bg-white">
+    <div class="row gx-5">
+      <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
+        <div class="pt-3 m-auto text-center">
+          <h3 class="p-auto mb-3 h2_block_white text-lg-start text-center">Quels sont les univers qui comprennent le plus grand nombre de pièces ?</h3>
+          <p class="mb-0 pt-auto px-auto pb-0 p_block_white d-block text-lg-start text-center">Si maintenant on analyse l'utilisation des pièces en fonction des univers, certains univers se détachent.</p>
+          <p class="mt-0 mb-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">Sans surprise, <strong>Star Wars</strong> est l’univers qui utilise le plus de pièces uniques dans ses boîtes. Il s’agit de la <strong>collaboration n°1</strong> chez LEGO. Elle est suivie par la gamme <strong>Friends</strong> (<em>plus proche des PLAYMOBIL</em>) avec ses pièces plus grosses et non compatibles vis-à-vis des autres univers LEGO.</p>        
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
+        <div class="p-lg-5 py-3">
+          <img src="./Visuels/dataviz_pieces/Univers avec les plus de pièce unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de LEGO de toutes les couleurs en croissant de lune et à droite quelques figurines LEGO">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <!-- N°5 pour les pièces les plus utilisées -->
+    <div class="mx-lg-5 p-4 bg-white">
+      <div class="row gx-5">
+        <div class="p-3 mt-3 bg-white text-center"> 
+          <h3 class="p-auto mb-3 h2_block_white text-center">La brique plate de 1 x 2 "clé de voûte" des sets LEGO</h3>
+          <div class="p-3 m-3 bg-white text-center">
+            <img class="rounded mx-auto d-block w-50" src="./Visuels/dataviz_pieces/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de LEGO de toutes les couleurs en croissant de lune et à droite quelques figurines LEGO">
           </div>
+          <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ici une heatmap représentant les 16 pièces les plus utilisées de l'univers LEGO. On retrouve <strong>la brick plate 1 x 2</strong>, notre n°1, qui j'en suis certain peuple encore l'un de vos placards. En 2e position, il y a la <strong>brick plate 1 x 1 round</strong>.</p>
+          <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ci-dessus, les <strong>5 briques</strong> les plus exploitées :</p>
         </div>
       </div>
     </div>
     
-    <!-- Gutters bootstrap n°2 pour l'Nombre de pièces utilisées -->
-    <div class="mx-lg-5 p-4 bg-white">
-      <div class="row gx-5">
-        <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
-          <div class="pt-3 m-auto text-center">
-            <h3 class="p-auto text-center">Analyse du nombre de pièces</h3>
-            <p class="p-auto d-block">Si l’on s’attarde sur le nombre de pièces utilisé dans les sets Lego en fonction des années on distingue 3 phases :</p>
-            <ul><li>une monté lente jusqu'à la première moitié des années 80</li>
-              <li>Une première ascension tumultueuse jusqu'au années 2000</li>
-              <li>Une ascension fulgurante qui n'a été stoppée qu’en 2020</li></ul>
-              <p>Si l’on croise les données des autres analyses (Univers et couleurs), Le carrefour des années 2000 est primordiale puisque qu’il marque le démarrage des contrats avec les univers de pop cultures ainsi que des investissements en recherche et développement.</p>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
-            <div class="p-lg-5 py-3">
-              <img src="./Visuels/Data_viz_parts/Nombre de pièces utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-            </div>
-          </div>
+    <!-- représentations des pièces les plus utilisées -->
+    <div class="container mx-auto row g-4 row-cols-1 row-cols-lg-3 align-items-center justify-content-center">
+      <div class="col-2">
+        <div class="p-lg-3  bg-white align-items-center justify-content-center">
+          <img src="./Visuels/dataviz_pieces/Plate 1 x 2 bis.png" class = "rounded mx-auto d-block w-75" alt="">
         </div>
+        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 2</h5>
       </div>
-      
-      <!-- Gutters bootstrap n°3 pour les pièces de rechange -->
-      <div class="mx-lg-5 p-4 bg-white position-relative">
-        <div class="row gx-5">
-          <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
-            <div class="p-lg-5 py-3 bg-white">
-              <img src="./Visuels/Data_viz_parts/Pourcentage.png" class="img-fluid" alt="gros plan sur des briques lego de toutes les couleurs, à gauche de l'image des briques en camaieu de jaune, en haut dans les tons rouges, dans l'angle haute droite du violet, angle bas droite des bleus et enfin du vert au centre bas">
-            </div>
-          </div>
-          <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-2 d-flex justify-content-center align-items-center">
-            <div class="pt-3 m-auto bg-white text-center">
-              <h3 class="p-auto text-center">Analyse des pièces de rechange</h3>
-              <p class="p-auto text-center">L’ajout de pièces de rechange dans les boîtes de Lego n’est pas systématique. En effet, bien que la proportion de ces pièces augmentent au fil des années, cela n'a rien de comparable avec l’augmentation du nombre de pièces. Le nombre de pièces de rechange a même commencé à descendre 2023.</p>
-            </div>
-          </div>
+      <div class="col-2">
+        <div class="p-lg-3  bg-white align-items-center justify-content-center">
+          <img src="./Visuels/dataviz_pieces/Plate Round 1 x 1 with Solid Stud.png" class = "rounded mx-auto d-block w-75" alt="">
         </div>
+        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate Round 1 x 1</h5>
       </div>
-      
-      <!-- Gutters bootstrap n°4 pour les pièces dans les univers -->
-      <div class="mx-lg-5 p-4 bg-white">
-        <div class="row gx-5">
-          <div class="p-lg-5 pt-0 pb-3 col-md-6 order-md-1 d-flex justify-content-center align-items-center">
-            <div class="pt-3 m-auto text-center">
-              <h3 class="p-auto text-center">Analyse des pièces dans les univers</h3>
-              <p class="p-auto d-block">Lorsque l’on s’attarde sur l’utilisation des pièces, certains univers se détachent. Sans surprise Star Wars est l’univers qui utilise le plus de pièces uniques dans ses boîtes. Il s’agit de l’univers n°1 des collaborations Lego. On aperçoit également la gamme Friends et Technique qui sont des univers spécifiques plus proche des playmobil(friends) avec des pièces plus grosses et qui ne rentrent pas dans la construction des autres univers Lego.</p>         </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
-              <div class="p-lg-5 py-3">
-                <img src="./Visuels/Data_viz_parts/Univers avec les plus de pièce unique.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-              </div>
-            </div>
-          </div>
+      <div class="col-2">
+        <div class="p-lg-3  bg-white align-items-center justify-content-center">
+          <img src="./Visuels/dataviz_pieces/Brick 1 x 2.png" class = "rounded mx-auto d-block w-75" alt="">
         </div>
-        
-        <!-- Gutters bootstrap n°5 pour les pièces les plus utilisées -->
-        <div class="mx-lg-5 p-4 bg-white">
-          <div class="row gx-5">
-            <div class="p-3 mt-3 bg-white text-center"> 
-              <h3>Analyse des pièces les plus utilisées</h3>
-              <div class="p-3 m-3 bg-white text-center">
-                <img class="rounded mx-auto d-block w-50" src="./Visuels/Data_viz_parts/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de lego de toutes les couleurs en croissant de lune et à droite quelques figurines lego">
-              </div>
-              <p class = "text-justify">Ici la réprésentation de l'utilisation des 16 pièces les plus utiliser de l'univers Lego. On retrouve bien sûr la brick plate 1 x 2, notre n°1 mais également la brick plate 1 x 1 round qui est la seconde brick la plus utiliser. Voici les 05 briques les plus utilisert :</p>
-            </div>
-          </div>
+        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 2</h5>
+      </div>
+      <div class="col-2">
+        <div class="p-lg-3  bg-white align-items-center justify-content-center">
+          <img src="./Visuels/dataviz_pieces/Plate 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
         </div>
-        
-        <!-- hero bootstrap pour l'intros au pièces -->
-        <div class="container mx-auto row g-4 row-cols-1 row-cols-lg-3 align-items-center justify-content-center">
-          <div class="col-2">
-            <div class="p-lg-3  bg-white align-items-center justify-content-center">
-              <img src="./Visuels/Data_viz_parts/Plate 1 x 2 bis.png" class = "rounded mx-auto d-block w-75" alt="">
-            </div>
-            <h5 class = "text-center">Plate 1 x 2</h5>
-          </div>
-          <div class="col-2">
-            <div class="p-lg-3  bg-white align-items-center justify-content-center">
-              <img src="./Visuels/Data_viz_parts/Plate Round 1 x 1 with Solid Stud.png" class = "rounded mx-auto d-block w-75" alt="">
-            </div>
-            <h5 class = "text-center">Plate Round 1 x 1</h5>
-          </div>
-          <div class="col-2">
-            <div class="p-lg-3  bg-white align-items-center justify-content-center">
-              <img src="./Visuels/Data_viz_parts/Brick 1 x 2.png" class = "rounded mx-auto d-block w-75" alt="">
-            </div>
-            <h5 class = "text-center">Brick 1 x 2</h5>
-          </div>
-          <div class="col-2">
-            <div class="p-lg-3  bg-white align-items-center justify-content-center">
-              <img src="./Visuels/Data_viz_parts/Plate 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
-            </div>
-            <h5 class = "text-center">Plate 1 x 1</h5>
-          </div>
-          <div class="col-2">
-            <div class="p-lg-3  bg-white align-items-center justify-content-center">
-              <img src="./Visuels/Data_viz_parts/Brick 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
-            </div>
-            <h5 class = "text-center">Brick 1 x 1</h5>
-          </div>
+        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 1</h5>
+      </div>
+      <div class="col-2">
+        <div class="p-lg-3  bg-white align-items-center justify-content-center">
+          <img src="./Visuels/dataviz_pieces/Brick 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
         </div>
-      </body>
-      <footer>
-      </footer>
+        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 1</h5>
+      </div>
+    </div>
+  </body>
+  <footer>
+  </footer>
