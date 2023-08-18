@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Bootstrap CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f02447683.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"/>
+  
+  <title>Projet Final LEGO</title>
+</head>
+
+<body>
+  <!-- Code spécifique pour la nav bar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bgnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="linknav nav-link" href="couleurs.html">COULEURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linknav" href="pieces.html">PIÈCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linknav" href="univers.html">UNIVERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linknav" aria-current="page" href="chiffres_affaires.html">CHIFFRES D'AFFAIRES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <h1 class="mt-5 mb-1 text-center">Regardons l'évolution du chiffre d'affaires de Lego ?</h1>
+  
+  <!-- bootstrap graphe du CA -->
+  <div class="mx-lg-3 mt-0 p-0 bg-white">
+    <div class="row gx-5">
+      <div class="p-3 bg-white text-center"> 
+        <div class="p-lg-3 p-0 m-lg-3 m-0 bg-white text-center">
+          <img class="rounded mx-auto d-block w-50" src="./Visuels/dataviz_ca/CA.png" class="img-fluid" alt="graphique représentant l'évolution financière de LEGO dans le temps entre 1995 et 2022. On voit deux courbes, l'une pour le CA et l'autre pour les bénéfices avant impôts.">
+          <figcaption class="figure-caption">Les valeurs sont exprimées en millions de couronnes dannoises</figcaption>
+        </div>
+        <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">L'analyse est réalisée à partir des <strong>rapports annuels disponibles</strong> (<a class="linkdiv" href="https://www.lego.com/en-gb/aboutus/lego-group/policies-and-reporting/reports#section-3">https://www.lego.com/annual_reports</a>). Les archives ne démarrant qu'en 1995, on ne couvrira pas la même période que pour les autres analyses. L'année en cours (<em>2023</em>) n'est pas non plus réprésentée.</p>
+        <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">De plus, les chiffres d'affaires ne sont pas calculées de la même façon <strong>de 1995 à 2000</strong>. L'ordre de grandeur étant très similaire, les valeurs seront considérées équivalentes dans le cadre de notre analyse.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- test carroussell - Analyses CA et Benef -->
+  <div class="container mt-5 mb-4">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="50000">
+          <div class="text-center bgsectioncolors p-4 p_block_color">
+            <h2>Analyse du chiffre d'affaires</h2>
+            <p>Le chiffre d'affaires de la société Lego est en augmentation depuis 1995. Après une phase stable de 1995 à 2004, la société connaît une forte croissance pour atteindre son paroxysme en 2022 avec <strong>65 milliards de couronnes danoises</strong> (<em>soit 8,72 milliards d’euros</em>).</p>
+            <p>L’entreprise a connu en <strong>2017</strong> un <strong>recul de son chiffre d'affaires de 7,8 %</strong>, une première pour LEGO ! L'origine de ce recul trouve sa source dans les décisions prises de diminution des stocks (<em>cf.rapport 2017</em>). À noter que cette baisse n'a pas eu d’impact sur les résultats suivants, malgré les effets du covid.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="50000">
+          <div class="text-center bgsectioncolors4 p-4 p_block_color">
+            <h2>Analyse des bénéfices</h2>
+            <p>Les bénéfices de la société LEGO suivent une trajectoire similaire au chiffre d’affaires.</p>
+            <p>Cependant, on note <strong>deux années négatives</strong> que sont 1998 (-282 mDKK) et 2000 (-1070 mDKK). Les rapports étant moins détaillés sur ces périodes, il n'y a pas de déclaration officielle LEGO et donc pas d’explication inhérente.</p>
+            <p>De même, <strong>le Covid-19</strong> ne semble pas avoir affecté les bénéfices, si ce n'est une perte de vitesse observée en 2022. Malgré tout, le Groupe LEGO enregistre un bénéfice record de <strong>18 milliards de DKK</strong> (<em>2,42 milliards d’euros</em>).</p></p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- footer général -->
+  <footer class="footer mt-lg-4 mt-1 py-3 bgfooter">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="txtfooter d-block" href="index.html">
+            <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://www.thehackingproject.org">The Hacking Project</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://github.com/LaSnipeuse/Projet_final_LEGO_World">Nos Analyses</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://little-self-taught-chameleon.notion.site/LEGO-1dc6005603174ac6942ae9c76fad0af3?pvs=4">Détails du Projet</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+</body>

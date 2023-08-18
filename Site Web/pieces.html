@@ -14,8 +14,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/8f02447683.js" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"/>
   
-  <title>Projet Final LEGO</title>
+  <title>Projet Final LEGO - Page Analyse des Pièces</title>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bgnav">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img src="./Visuels/brand-LEGO.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+        <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,16 +32,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="couleurs.html">Couleurs</a>
+            <a class="linknav nav-link" href="couleurs.html">COULEURS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="pieces.html">Pièces</a>
+            <a class="nav-link linknav" aria-current="page" href="pieces.html">PIÈCES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="univers.html">Univers</a>
+            <a class="nav-link linknav" href="univers.html">UNIVERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="chiffres_affaires.html">Chiffres d'Affaires</a>
+            <a class="nav-link linknav" href="chiffres_affaires.html">CHIFFRES D'AFFAIRES</a>
           </li>
         </ul>
       </div>
@@ -108,7 +109,7 @@
             <li>Suivie de turbulences jusqu'aux années 2000,</li>
             <li>Puis, une ascension fulgurante qui n'a été stoppée qu’en 2020</li>
           </ul>
-          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">En croisant les données des <a href="univers.html">Univers</a> et <a href="couleurs.html">Couleurs</a>, on observe un carrefour primordial dans les années 2000. Cela marque le démarrage des contrats avec les univers de pop cultures ainsi que des investissements en recherche et développement.</p>
+          <p class="mt-0 pt-0 pb-auto px-auto p_block_white d-block text-lg-start text-center">En croisant les données des <a class="linkdiv" href="univers.html">Univers</a> et <a class="linkdiv" href="couleurs.html">Couleurs</a>, on observe un carrefour primordial dans les années 2000. Cela marque le démarrage des contrats avec les univers de pop cultures ainsi que des investissements en recherche et développement.</p>
         </div>
       </div>
       <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2">
@@ -155,54 +156,75 @@
       </div>
     </div>
   </div>
-    
-    <!-- N°5 pour les pièces les plus utilisées -->
-    <div class="mx-lg-5 p-4 bg-white">
-      <div class="row gx-5">
-        <div class="p-3 mt-3 bg-white text-center"> 
-          <h3 class="p-auto mb-3 h2_block_white text-center">La brique plate de 1 x 2 "clé de voûte" des sets LEGO</h3>
-          <div class="p-3 m-3 bg-white text-center">
-            <img class="rounded mx-auto d-block w-50" src="./Visuels/dataviz_pieces/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de LEGO de toutes les couleurs en croissant de lune et à droite quelques figurines LEGO">
+  
+  <!-- N°5 pour les pièces les plus utilisées -->
+  <div class="mx-lg-5 p-4 bg-white">
+    <div class="row gx-5">
+      <div class="p-3 mt-3 bg-white text-center"> 
+        <h3 class="p-auto mb-3 h2_block_white text-center">La brique plate de 1 x 2 "clé de voûte" des sets LEGO</h3>
+        <div class="p-3 m-3 bg-white text-center">
+          <img class="rounded mx-auto d-block w-50" src="./Visuels/dataviz_pieces/TableauxPièces les plus utilisées.png" class="img-fluid" alt="une photo représentant à gauche des pièces de LEGO de toutes les couleurs en croissant de lune et à droite quelques figurines LEGO">
+        </div>
+        <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ici une heatmap représentant les 16 pièces les plus utilisées de l'univers LEGO. On retrouve <strong>la brick plate 1 x 2</strong>, notre n°1, qui j'en suis certain peuple encore l'un de vos placards. En 2e position, il y a la <strong>brick plate 1 x 1 round</strong>.</p>
+        <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ci-dessus, les <strong>5 briques</strong> les plus exploitées :</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- représentations des pièces les plus utilisées -->
+  <div class="container mx-auto row g-4 row-cols-1 row-cols-lg-3 align-items-center justify-content-center">
+    <div class="col-2">
+      <div class="p-lg-3  bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Plate 1 x 2 bis.png" class = "rounded mx-auto d-block w-75" alt="">
+      </div>
+      <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 2</h5>
+    </div>
+    <div class="col-2">
+      <div class="p-lg-3  bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Plate Round 1 x 1 with Solid Stud.png" class = "rounded mx-auto d-block w-75" alt="">
+      </div>
+      <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate Round 1 x 1</h5>
+    </div>
+    <div class="col-2">
+      <div class="p-lg-3  bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Brick 1 x 2.png" class = "rounded mx-auto d-block w-75" alt="">
+      </div>
+      <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 2</h5>
+    </div>
+    <div class="col-2">
+      <div class="p-lg-3  bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Plate 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
+      </div>
+      <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 1</h5>
+    </div>
+    <div class="col-2">
+      <div class="p-lg-3  bg-white align-items-center justify-content-center">
+        <img src="./Visuels/dataviz_pieces/Brick 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
+      </div>
+      <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 1</h5>
+    </div>
+  </div>
+
+  <!-- footer général -->
+  <footer class="footer mt-lg-4 mt-1 py-3 bgfooter">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="txtfooter d-block" href="index.html">
+              <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+            </a>
           </div>
-          <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ici une heatmap représentant les 16 pièces les plus utilisées de l'univers LEGO. On retrouve <strong>la brick plate 1 x 2</strong>, notre n°1, qui j'en suis certain peuple encore l'un de vos placards. En 2e position, il y a la <strong>brick plate 1 x 1 round</strong>.</p>
-          <p class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Ci-dessus, les <strong>5 briques</strong> les plus exploitées :</p>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://www.thehackingproject.org">The Hacking Project</a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://github.com/LaSnipeuse/Projet_final_LEGO_World">Nos Analyses</a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="linkfooter d-block pt-lg-3 pt-md-3" href="https://little-self-taught-chameleon.notion.site/LEGO-1dc6005603174ac6942ae9c76fad0af3?pvs=4">Détails du Projet</a>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <!-- représentations des pièces les plus utilisées -->
-    <div class="container mx-auto row g-4 row-cols-1 row-cols-lg-3 align-items-center justify-content-center">
-      <div class="col-2">
-        <div class="p-lg-3  bg-white align-items-center justify-content-center">
-          <img src="./Visuels/dataviz_pieces/Plate 1 x 2 bis.png" class = "rounded mx-auto d-block w-75" alt="">
-        </div>
-        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 2</h5>
-      </div>
-      <div class="col-2">
-        <div class="p-lg-3  bg-white align-items-center justify-content-center">
-          <img src="./Visuels/dataviz_pieces/Plate Round 1 x 1 with Solid Stud.png" class = "rounded mx-auto d-block w-75" alt="">
-        </div>
-        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate Round 1 x 1</h5>
-      </div>
-      <div class="col-2">
-        <div class="p-lg-3  bg-white align-items-center justify-content-center">
-          <img src="./Visuels/dataviz_pieces/Brick 1 x 2.png" class = "rounded mx-auto d-block w-75" alt="">
-        </div>
-        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 2</h5>
-      </div>
-      <div class="col-2">
-        <div class="p-lg-3  bg-white align-items-center justify-content-center">
-          <img src="./Visuels/dataviz_pieces/Plate 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
-        </div>
-        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Plate 1 x 1</h5>
-      </div>
-      <div class="col-2">
-        <div class="p-lg-3  bg-white align-items-center justify-content-center">
-          <img src="./Visuels/dataviz_pieces/Brick 1 x 1.png" class = "rounded mx-auto d-block w-75" alt="">
-        </div>
-        <h5 class = "mb-0 pt-auto px-auto pb-0 p_block_white d-block text-center">Brick 1 x 1</h5>
-      </div>
-    </div>
-  </body>
-  <footer>
   </footer>
+
+</body>
