@@ -13,8 +13,9 @@
   crossorigin="anonymous"/>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/8f02447683.js" crossorigin="anonymous"></script>
-  <link href="style.css" rel="stylesheet"/>
-  
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400"/>
+
   <title>Projet Final LEGO</title>
 </head>
 
@@ -31,16 +32,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="couleurs.html">Couleurs</a>
+            <a class="linknav nav-link" href="couleurs.html">COULEURS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pieces.html">Pièces</a>
+            <a class="nav-link linknav" href="pieces.html">PIÈCES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="univers.html">Univers</a>
+            <a class="nav-link linknav" href="univers.html">UNIVERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="chiffres_affaires.html">Chiffres d'Affaires</a>
+            <a class="nav-link linknav" href="chiffres_affaires.html">CHIFFRES D'AFFAIRES</a>
           </li>
         </ul>
       </div>
@@ -97,8 +98,8 @@
     </div>
   </div>
 
-    <!-- Gutters bootstrap pour la section univers -->
-    <div class="mx-lg-5 p-4 bgsectioncolors2">
+  <!-- Gutters bootstrap pour la section univers -->
+  <div class="mx-lg-5 p-4 bgsectioncolors2">
       <div class="row gx-5">
           <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1">
               <div class="p-lg-5 py-3  bgsectioncolors2">
@@ -113,46 +114,28 @@
               </div>
           </div>
       </div>
-    </div>
+  </div>
 
-    <!-- Carroussel section -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
+  <!-- footer général -->
+  <footer class="footer mt-lg-4 mt-1 py-3 bgfooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="txtfooter d-block" href="index.html">
+            <img src="./Visuels/brand-lego.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+          </a>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block" href="https://www.thehackingproject.org">The Hacking Project</a>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block" href="https://github.com/LaSnipeuse/Projet_final_LEGO_World">Nos Analyses</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="linkfooter d-block" href="https://little-self-taught-chameleon.notion.site/LEGO-1dc6005603174ac6942ae9c76fad0af3?pvs=4">Détails du Projet</a>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+  </footer>
 
 </body>
