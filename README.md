@@ -2,7 +2,7 @@ Projet de fin de formation Data Analyse (formation The Hacking Project)
 
 Nous sommes une équipe de 3 personnes et nous avons choisi d'analyser les éléments qui constituent l'univers LEGO.
 
-Pour retrouver notre analyse, allez voir <strong>notre site</strong> web : https://lasnipeuse.github.io/Projet_final_LEGO_World/
+Pour retrouver notre analyse, allez voir <strong>notre site</strong> web : https://blanchard-floriane.github.io/Projet_final_LEGO_World/
 
 ### Description du projet ?
 
